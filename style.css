@@ -1,0 +1,196 @@
+/*Menu*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: linear-gradient(72deg, #375b2e 1%, #b8dea4 99%);
+}
+
+ .container{
+  display: flex;
+  justify-content: center;
+}
+ .cabeçalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #375b2e;
+    height: 70px;
+    width: 100%;  
+    text-align: center;
+    list-style: none;
+    padding: 1em 0;
+  }
+  .cabeçalho__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    margin-left: 50px;
+    color: #f8be00;
+  }
+  .cabeçalho__lista {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container1 {
+    display: flex;
+    justify-content: flex;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .formulario input{
+    margin: 10px 0;
+  
+  }
+  #botao {
+    padding: 5px;
+  }
+
+body{
+background-color: #a2d3e7;
+}
+footer{
+
+  width: 100%;
+  position: absolute;
+  background-color: #375b2e;
+  color: white;
+  padding: 100px 0px 30px;
+}
+.row{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.col{
+  flex-basis: 25%;
+  padding:10px;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+}
+h4{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: #f8be00;
+}
+i{
+  color: white;
+  font-weight: lighter;
+}
+i:hover{
+  color: rgb(193, 165, 42,);
+}
+
+        * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+.mySlides {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.mySlides img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+  width: 60vw;
+  max-width: 100%;
+  height: 70vh; /* Ajuste conforme necessário */
+  position: relative;
+  margin: auto;
+  border: solid black 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: white;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*ShowRoom*/
