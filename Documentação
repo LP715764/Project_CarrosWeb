@@ -1,0 +1,112 @@
+CARROS WEB
+
+Integrantes
+Lucas Pereira da Silva  RA: 215100  							ADS-5
+Introdução
+    O Site CarrosWeb, é um site exclusivo de vendas e revendas de veículos, tanto de duas ou quatro rodas. Um site simples, confiável e prático. E em poucos minutos você encontra o veículo que mais combina com você. 
+
+Objetivos e Justificativa
+•	O nosso objetivo é facilitar a escolha do seu próximo veículo, com parceria com inúmeras concessionárias, revendas e vendedores. O nosso site te proporciona uma infinidade de opções e modelos de veículos. Filtrando sua escolha por categoria. 
+•	Desde Clássicos até esportivos, sedans, suvs e os modernos, carros elétricos. 
+•	Além de te proporcionar, uma melhor experiência, também fazemos cotação de seguro para o seu veículo. 
+Sem falar, da nossa parceria com o Banco do Brasil, para te ajudar no financiamento.
+
+Tecnologias Utilizadas
+•	Html: Foi utilizado para a construção e estruturação do site.
+•	CSS: Usado para à estilização e construção do design do site.
+•	JavaScript: Utilizado para dar funcionalidades aos componentes do site (como o botões e filtros de pesquisas) .
+•	PhP: Utilizado para a construção do e conexão com o Banco de Dados, também usado para à construção do sistema de login do cliente e do vendedor no site.
+•	MySQL: Utilizado na construção das tabelas do banco de dados: Vendedor e cliente.
+•	WampServer64: Software utilizado para acessar o Apache e o MySQL/phpmyadmin.
+•	FrameWork  Utilizado: Visual Studio Code.
+
+Arquitetura do Projeto
+Visão Geral: O layout do site é um layout simples e de uso fácil. Facilitando o usuário na busca de seu próximo veículo.
+ 
+
+Menu Principal: Parte inicial do site, conta com uma tela simples e bem intuitiva, possui um slideshow com imagens de carros e motos. Conta também com um pequeno texto com informações sobre o site CarrosWeb. Mais abaixo, encontra-se o rodapé do site. Com informações, como endereço da empresa, opções (site e aplicativo do projeto), e contatos (Linkedin, Instagram, Facebook, Twitter).
+ 
+(Menu principal).
+
+ 
+(Rodapé).
+
+ShowRoom: Essa parte do site é aonde fica localizado uma lista com todos os veículos disponíveis na loja. Possui uma lista de veículos como: Carros antigos, Clássicos, Esportivos, Elétricos, Luxo, Picapes, Populares, Sedans e SUV. Possui um filtro de pesquisa (embora não seja funcional) de marca, modelo e ano. Em cada veículo disponível possui um botão comprar.
+Ao clicar no botão clicar, você automaticamente será encaminhado para uma parte do site, aonde se encontram mais informações sobre o veículo, sobre o vendedor e imagens do veículo, mais abaixo, encontra-se um segundo botão comprar, aonde o cliente fará o seu login no site e entrará em contato com o vendedor. 
+ 
+
+
+Seguro: Esse é um link, no qual ao clicar, você automaticamente será encaminha para um site de cotação de seguros. Aonde o cliente terá a possibilidade de fazer uma simulação de seguro, com as melhores seguradoras do mercado.
+ 
+
+Financiamento: Esse é um link, no qual ao clicar, você será direcionado para o site oficial do Banco do Brasil, para fazer uma simulação de financiamento do seu veículo.	 
+ 
+
+Login: Essa parte do site é aonde o (usuário admin.) ou vendedor, irá fazer o seu cadastro. Já o cadastro do (cliente) ou comprador, encontra-se logo após o cliente clicar em comprar o automóvel. Ele será direcionado para uma tela, aonde colocará as suas informações como: nome, email e telefone de contato. Logo após, aparecerá uma caixa de mensagem, onde o cliente poderá entrar em contato diretamente com o vendedor ou anunciante do veículo.
+ 
+(Login vendedor).
+ 
+(Login cliente).
+
+Sair: Esse é um link, no qual ao clicar, você será direcionado para o site do Google, saindo definitivamente do site.
+
+
+Banco de Dados
+O Banco de Dados, foi divido em duas tabelas. A tabela: vendedor e a tabela: cliente
+Dentro de uma mesma aplicação. Tb_carrosweb. Aqui vão alguns atributos utilizados nas tabelas
+Tabela vendedor: 
+ 
+•	Id: Número de registro do vendedor, gerado automaticamente
+•	Nome: Nome do vendedor.
+•	Email: Email de contato do vendedor ou anunciante.
+•	Senha: Senha de usuário criptografada.
+•	Telefone: Telefone de contato do vendedor ou anunciante.
+•	Endereço: Informações sobre o local ou sede do vendedor ou anunciante.
+•	Complemento: Informações detalhadas ou mais precisas do endereço.
+•	Cep: Número de localização padrão do endereço.
+•	Veiculo: Marca ou modelo do veículo, anunciado pelo vendedor.
+•	Ano: Ano de fabricação do veículo.
+Tabela Cliente:
+ 
+•	Id: Número de registro do cliente, gerado automaticamente
+•	Nome: Nome do cliente.
+•	Email: Email de contato do cliente.
+•	Telefone: Telefone de contato do cliente.
+•	Mensagem: Caixa de mensagem, aonde ocorrerá, possíveis trocas de mensagens ou negociações entre o cliente e o vendedor.
+
+
+
+Design e Layout
+Com cores patriotas e design simples e robusto. O layout ficou estiloso, chamativo e ao mesmo tempo com uma cara única. 
+
+Fluxo do Usuário
+A entrar no Site o usuário, irá se deparar com a tela do menu inicial. Caso esse usuário seja o vendedor, ele irá para a parte do Login, aonde irá colocar todas as suas informações e onde fará o anuncio do veículo.
+Caso esse usuário seja o cliente, ele irá para à parte do ShowRoom, onde ele irá encontrar todos os veículos disponíveis no site. Caso ele escolha o veículo, ao clicar no botão comprar, este será encaminhado para uma parte do site com todas as informações do veículo e do seu vendedor. Caso ele dê continuidade na compra, ele será encaminhado para a tela do Cadastro do Cliente. Feito o cadastro e após as negociações com o vendedor. O cliente poderá fazer a cotação de seguro, e depois fazer a simulação através do próprio site, que lhe possibilita essas alternativas.
+ 
+(Após à escolha do veículo, ao clicar em comprar o cliente será direcionado a parte com mais informações sobre o veículo).
+
+ 
+(Ao entrar nas informações gerais do auto, o cliente poderá realizar a compra deste mesmo, através de um botão “Comprar”, situado mais à baixo).
+Caso o cliente não queira, comprar nenhum veículo, e queira sair do site, ele poderá utilizar a opção “sair”, situado no cabeçalho do site.
+
+
+Considerações Finais
+“Nenhum projeto nasce designado a ser um grande sucesso ou um grande fracasso, isso quem faz acontecer é basicamente quem o faz”. 
+
+Desafios enfrentados durante o desenvolvimento:
+1.	O primeiro grande desafio, no desenvolvimento desse projeto, foi na elaboração, no desenvolvimento da idéia, na criação do projeto como um todo. Como mencionado antes, esse trabalho foi feito solo.
+2.	O Segundo desafio foi na estilização e no desenvolvimento do layout com os seus designers. Umas das principais dificuldades apresentadas, foi no desenvolvimento do código no CSS(utilizado para a estilização do projeto).
+3.	O terceiro grande desafio foi no desenvolvimento e conflitos com o Banco de dados, Como mencionado anteriormente, um dos frameworks utilizados na criação do desenvolvimento do Banco de Dados foi o WampServer64. Porém, no dia da apresentação do TCC, o notebook no qual se apresentava este projeto, utilizava o Xampp. Onde gerou uma série de conflitos no desenvolvimento e na carregação do banco de Dados. Precisando recriar o Banco de Dados do zero e mudando todo o código, para poder gerar as tabelas. 
+
+
+Possíveis melhorias futuras:
+Antes de mais nada, gostaria de deixar bem claro, que esse projeto é apenas um protótipo. Por isso, não está 100% funcional. Porém, algumas melhorias futuras:
+1.	Banco de Dados;
+2.	Tela de Cadastro do Vendedor;
+3.	Tela de Cadastro do Cliente;
+4.	Layout (algumas melhorias no design);
+5.	Interação com o usuário;
+6.	E a funcionalidade na hora de comprar o veículo;
+
+Referências:
+O Site CarrosWeb, foi inspirado em um site de coleção e vendas de carros, chamado Pastore-Collection. Site esse que serviu de inspiração para a criação deste projeto. 
